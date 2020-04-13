@@ -115,63 +115,14 @@
         <div class="row row-content align-items-center justify-content-center">
             <div class="align-items-center col-8">
                 <div class="card">
-                    <h3 class="card-header bg-warning text-white">
-                        Reserve a table
-                    </h3>
-                    <div class="card-body">
-                        <dl class="row">
-                            <dt class="col-3">Number of Guests</dt>
-                            <dd class="col-9">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="inlineRadio1" value="option1">
-                                    <label class="form-check-label" for="inlineRadio1">1</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">2</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">3</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">4</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">5</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
-                                        id="inlineRadio2" value="option2">
-                                    <label class="form-check-label" for="inlineRadio2">6</label>
-                                </div>
-                            </dd>
-
-
-                        </dl>
+                    <div class="card-header bg-warning text-white">
+                        <h4 class="mb-0">Reserve a table</h4>
                     </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row row-content align-items-center justify-content-center ">
-            <div class="card">
-                <h3 class="card-header bg-warning text-white">Reserve a table malo
-                </h3>
-                <div class="card-body">
-                    <form>
-                        <dl class="form-row">
-                            <div class="form-group col-md-6">
-                                <dt class="col-3">Number of Guests</dt>
-                                <dd>
+                    <div class="card-body">
+                        <form class="form" role="form" autocomplete="off">
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Number of Guest</label>
+                                <div class="col-lg-9">
                                     <div class="form-check form-check-inline">
                                         <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                             id="inlineRadio1" value="option1">
@@ -202,34 +153,24 @@
                                             id="inlineRadio2" value="option2">
                                         <label class="form-check-label" for="inlineRadio2">6</label>
                                     </div>
-                                </dd>
-                                <dl class="form-row">
-                                    <dt class="col-3">Date and Time</dt>
-                                    <input type="text" class="form-control col-3" id="ReserveDate"
-                                        onfocus="(this.type='date')" placeholder="Date">
-
-                                    <input type="text" class="form-control col-3" id="ReserveTime" placeholder="Time">
-                                </dl>
-                                <dl class="form-row">
-                                    <dt class="col-3"></dt>
-                                    <dd class="col-5"><button type="submit" class="btn btn-primary">Reserve</button>
-                                    </dd>
-                                </dl>
+                                </div>
                             </div>
-
-                        </dl>
-                        <dl class="form-row">
-                            <dt class="col-3">Date and Time</dt>
-                            <input type="text" class="form-control col-3" id="ReserveDate" onfocus="(this.type='date')"
-                                placeholder="Date">
-
-                            <input type="text" class="form-control col-3" id="ReserveTime" placeholder="Time">
-                        </dl>
-                        <dl class="form-row">
-                            <dt class="col-3"></dt>
-                            <dd class="col-5"><button type="submit" class="btn btn-primary">Reserve</button></dd>
-                        </dl>
-                    </form>
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label">Date and Time</label>
+                                <div class="row col-lg-9">
+                                    <input type="text" class="form-control col-3" id="ReserveDate"
+                                        onfocus="(this.type='date')" placeholder="Date">   
+                                        <input type="text" class="form-control col-3" id="ReserveTime" placeholder="Time">
+                                </div>                                                               
+                            </div>                            
+                            <div class="form-group row">
+                                <label class="col-lg-3 col-form-label form-control-label"></label>
+                                <div class="col-lg-9">
+                                    <input type="button" class="btn btn-primary" value="Reserve">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
